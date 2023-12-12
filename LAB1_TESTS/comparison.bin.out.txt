@@ -1,0 +1,70 @@
+attempting to convert comparison_submissions/4608993/comparison.bin into comparison_submissions/4608993/comparison.obj
+conversion successful
+==========
+Test: Example
+  [X=xFFFD Y=x0005] Actual: x0001; Expected: x0001
+  ProvidedExample => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: Zero
+  [X=x0000 Y=x0000] Actual: x0000; Expected: x0000
+  Zeroes => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: PositivePositive1
+  [X=x0004 Y=x0001] Actual: xFFFF; Expected: xFFFF
+  PositivePositive1 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: PositivePositive2
+  [X=x0017 Y=x004A] Actual: x0001; Expected: x0001
+  PositivePositive2 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: PositivePositive3
+  [X=x007B Y=x007B] Actual: x0000; Expected: x0000
+  PositivePositive3 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: PositiveNegative
+  [X=x0008 Y=xFFFE] Actual: xFFFF; Expected: xFFFF
+  PositiveNegative => Pass (+5 pts)
+Test points earned: 5/5 (100%)
+==========
+Test: NegativePositive
+  [X=xF234 Y=x0005] Actual: x0001; Expected: x0001
+  NegativePositive => Pass (+5 pts)
+Test points earned: 5/5 (100%)
+==========
+Test: NegativeNegative1
+  [X=xFF9E Y=xFF79] Actual: xFFFF; Expected: xFFFF
+  NegativeNegative1 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: NegativeNegative2
+  [X=xE1DD Y=xFFFF] Actual: x0001; Expected: x0001
+  NegativeNegative2 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: NegativeNegative3
+  [X=xCFC7 Y=xCFC7] Actual: x0000; Expected: x0000
+  NegativeNegative3 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: LargePositive
+  [X=x7FEE Y=xFF38] Actual: xFFFF; Expected: xFFFF
+  LargePositive => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: LargeNegative
+  [X=x800E Y=x00AB] Actual: x0001; Expected: x0001
+  LargeNegative => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: OverflowExample
+  [X=xFFFF Y=x7FFF] Actual: x0001; Expected: x0001
+  OverflowExample => Pass (+2 pts)
+Test points earned: 2/2 (100%)
+==========
+==========
+Total points earned: 50/50 (100%)

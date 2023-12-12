@@ -1,0 +1,85 @@
+attempting to convert bsr_submissions/4608993/bsr.bin into bsr_submissions/4608993/bsr.obj
+conversion successful
+==========
+Test: Example1
+  [B=xB338] Actual: x0003; Expected: x0003
+  ProvidedExample1 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: Example2
+  [B=x0880] Actual: x0007; Expected: x0007
+  ProvidedExample2 => Pass (+4 pts)
+Test points earned: 4/4 (100%)
+==========
+Test: BitVector1
+  [B=x0001] Actual: x0000; Expected: x0000
+  BitVector1 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector2
+  [B=x0002] Actual: x0001; Expected: x0001
+  BitVector2 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector3
+  [B=x0008] Actual: x0003; Expected: x0003
+  BitVector3 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector4
+  [B=x8000] Actual: x0000; Expected: x000F
+  BitVector4 => Exceeded instruction limit (+0 pts)
+Test points earned: 0/3 (0%)
+==========
+Test: BitVector5
+  [B=x00C0] Actual: x0006; Expected: x0006
+  BitVector5 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector6
+  [B=x0E00] Actual: x0009; Expected: x0009
+  BitVector6 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector7
+  [B=x3210] Actual: x0004; Expected: x0004
+  BitVector7 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector8
+  [B=x0042] Actual: x0001; Expected: x0001
+  BitVector8 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector9
+  [B=xFFFF] Actual: x0000; Expected: x0000
+  BitVector9 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector10
+  [B=x6480] Actual: x0007; Expected: x0007
+  BitVector10 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector11
+  [B=xEEE0] Actual: x0005; Expected: x0005
+  BitVector11 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector12
+  [B=xA000] Actual: x000D; Expected: x000D
+  BitVector12 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector13
+  [B=x8C00] Actual: x000A; Expected: x000A
+  BitVector13 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+Test: BitVector14
+  [B=x1900] Actual: x0008; Expected: x0008
+  BitVector14 => Pass (+3 pts)
+Test points earned: 3/3 (100%)
+==========
+==========
+Total points earned: 47/50 (94%)
