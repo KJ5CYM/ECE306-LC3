@@ -18,7 +18,7 @@ Test: Example
   [x33fd] Actual: x0f7a; Expected: x0001
   [x33fe] Actual: x0068; Expected: xffff
   [x33ff] Actual: x006d; Expected: xff76
-Test points earned: 0/8 (0%)
+Test points earned: 0/8 (0%) 
 ==========
 Test: RandomizedMem (Randomized Machine, Seed: 3677772787)
   [x33f0] Actual: xffff; Expected: x0f7a
