@@ -1,0 +1,220 @@
+attempting to assemble sort_submissions/4608993/sort.asm into sort_submissions/4608993/sort.obj
+assembly successful
+==========
+Test: Example
+  [x33f0] Actual: xffff; Expected: x0f7a
+  [x33f1] Actual: x0062; Expected: x0a73
+  [x33f2] Actual: x0a73; Expected: x0073
+  [x33f3] Actual: x006c; Expected: x0070
+  [x33f4] Actual: x0070; Expected: x006e
+  [x33f5] Actual: x0001; Expected: x006d
+  [x33f6] Actual: x0063; Expected: x006c
+  [x33f7] Actual: x0065; Expected: x006b
+  [x33f8] Actual: x0062; Expected: x0068
+  [x33f9] Actual: x0073; Expected: x0065
+  [x33fa] Actual: x006e; Expected: x0063
+  [x33fb] Actual: x006b; Expected: x0062
+  [x33fc] Actual: xff76; Expected: x0062
+  [x33fd] Actual: x0f7a; Expected: x0001
+  [x33fe] Actual: x0068; Expected: xffff
+  [x33ff] Actual: x006d; Expected: xff76
+Test points earned: 0/8 (0%)
+==========
+Test: RandomizedMem (Randomized Machine, Seed: 3677772787)
+  [x33f0] Actual: xffff; Expected: x0f7a
+  [x33f1] Actual: x0062; Expected: x0a73
+  [x33f2] Actual: x0a73; Expected: x0073
+  [x33f3] Actual: x006c; Expected: x0070
+  [x33f4] Actual: x0070; Expected: x006e
+  [x33f5] Actual: x0001; Expected: x006d
+  [x33f6] Actual: x0063; Expected: x006c
+  [x33f7] Actual: x0065; Expected: x006b
+  [x33f8] Actual: x0062; Expected: x0068
+  [x33f9] Actual: x0073; Expected: x0065
+  [x33fa] Actual: x006e; Expected: x0063
+  [x33fb] Actual: x006b; Expected: x0062
+  [x33fc] Actual: xff76; Expected: x0062
+  [x33fd] Actual: x0f7a; Expected: x0001
+  [x33fe] Actual: x0068; Expected: xffff
+  [x33ff] Actual: x006d; Expected: xff76
+Test points earned: 0/8 (0%)
+==========
+Test: LengthZero
+  LengthZero => Pass (+6 pts)
+Test points earned: 6/6 (100%)
+==========
+Test: LengthOne
+  [x3400] Actual: xffff; Expected: xffff
+  LengthOne => Pass (+6 pts)
+Test points earned: 6/6 (100%)
+==========
+Test: LengthTwo
+  [x3600] Actual: xffff; Expected: xffff
+  [x3601] Actual: xfff5; Expected: xfff5
+  LengthTwo => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: Positive
+  [x33f0] Actual: x0010; Expected: x0010
+  [x33f1] Actual: x000f; Expected: x000f
+  [x33f2] Actual: x000e; Expected: x000e
+  [x33f3] Actual: x000d; Expected: x000d
+  [x33f4] Actual: x000c; Expected: x000c
+  [x33f5] Actual: x000b; Expected: x000b
+  [x33f6] Actual: x000a; Expected: x000a
+  [x33f7] Actual: x0009; Expected: x0009
+  [x33f8] Actual: x0008; Expected: x0008
+  [x33f9] Actual: x0007; Expected: x0007
+  [x33fa] Actual: x0006; Expected: x0006
+  [x33fb] Actual: x0005; Expected: x0005
+  [x33fc] Actual: x0004; Expected: x0004
+  [x33fd] Actual: x0003; Expected: x0003
+  [x33fe] Actual: x0002; Expected: x0002
+  [x33ff] Actual: x0001; Expected: x0001
+  Positive => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: Negative
+  [x33f0] Actual: xffff; Expected: xffff
+  [x33f1] Actual: xfffe; Expected: xfffe
+  [x33f2] Actual: xfffd; Expected: xfffd
+  [x33f3] Actual: xfffc; Expected: xfffc
+  [x33f4] Actual: xfffb; Expected: xfffb
+  [x33f5] Actual: xfffa; Expected: xfffa
+  [x33f6] Actual: xfff9; Expected: xfff9
+  [x33f7] Actual: xfff8; Expected: xfff8
+  [x33f8] Actual: xfff7; Expected: xfff7
+  [x33f9] Actual: xfff6; Expected: xfff6
+  [x33fa] Actual: xfff5; Expected: xfff5
+  [x33fb] Actual: xfff4; Expected: xfff4
+  [x33fc] Actual: xfff3; Expected: xfff3
+  [x33fd] Actual: xfff2; Expected: xfff2
+  [x33fe] Actual: xfff1; Expected: xfff1
+  [x33ff] Actual: xfff0; Expected: xfff0
+  Negative => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: Zeroes
+  [x3456] Actual: x0000; Expected: x0000
+  [x3457] Actual: x0000; Expected: x0000
+  [x3458] Actual: x0000; Expected: x0000
+  [x3459] Actual: x0000; Expected: x0000
+  [x345a] Actual: x0000; Expected: x0000
+  [x345b] Actual: x0000; Expected: x0000
+  [x345c] Actual: x0000; Expected: x0000
+  [x345d] Actual: x0000; Expected: x0000
+  [x345e] Actual: x0000; Expected: x0000
+  [x345f] Actual: x0000; Expected: x0000
+  Zeroes => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: NoChange
+  [x3600] Actual: xfff8; Expected: x0007
+  [x3601] Actual: xfff9; Expected: x0006
+  [x3602] Actual: xfffa; Expected: x0005
+  [x3603] Actual: xfffb; Expected: x0004
+  [x3604] Actual: xfffc; Expected: x0003
+  [x3605] Actual: xfffd; Expected: x0002
+  [x3606] Actual: xfffe; Expected: x0001
+  [x3607] Actual: xffff; Expected: x0000
+  [x3608] Actual: x0000; Expected: xffff
+  [x3609] Actual: x0001; Expected: xfffe
+  [x360a] Actual: x0002; Expected: xfffd
+  [x360b] Actual: x0003; Expected: xfffc
+  [x360c] Actual: x0004; Expected: xfffb
+  [x360d] Actual: x0005; Expected: xfffa
+  [x360e] Actual: x0006; Expected: xfff9
+  [x360f] Actual: x0007; Expected: xfff8
+Test points earned: 0/8 (0%)
+==========
+Test: Simple
+  [x4100] Actual: x0008; Expected: x000c
+  [x4101] Actual: xfff6; Expected: x000a
+  [x4102] Actual: xfff7; Expected: x0008
+  [x4103] Actual: xfff8; Expected: x0007
+  [x4104] Actual: x0000; Expected: x0000
+  [x4105] Actual: x000c; Expected: xfff8
+  [x4106] Actual: xfff4; Expected: xfff7
+  [x4107] Actual: x0007; Expected: xfff6
+  [x4108] Actual: x000a; Expected: xfff4
+Test points earned: 0/8 (0%)
+==========
+Test: Mixed1
+  [x4100] Actual: x0004; Expected: x000b
+  [x4101] Actual: x0002; Expected: x0006
+  [x4102] Actual: xfffd; Expected: x0006
+  [x4103] Actual: x0003; Expected: x0005
+  [x4104] Actual: xfff6; Expected: x0004
+  [x4105] Actual: x000b; Expected: x0004
+  [x4106] Actual: xfff9; Expected: x0003
+  [x4107] Actual: xfffd; Expected: x0002
+  [x4108] Actual: x0004; Expected: x0002
+  [x4109] Actual: x0006; Expected: xffff
+  [x410a] Actual: x0002; Expected: xfffd
+  [x410b] Actual: x0006; Expected: xfffd
+  [x410c] Actual: x0005; Expected: xfff9
+  [x410d] Actual: xffff; Expected: xfff6
+Test points earned: 0/8 (0%)
+==========
+Test: Mixed2
+  [x4500] Actual: x000b; Expected: x001a
+  [x4501] Actual: x000d; Expected: x0015
+  [x4502] Actual: xfff3; Expected: x000d
+  [x4503] Actual: xfff7; Expected: x000d
+  [x4504] Actual: x0001; Expected: x000d
+  [x4505] Actual: xfff7; Expected: x000c
+  [x4506] Actual: x0015; Expected: x000b
+  [x4507] Actual: x0007; Expected: x000a
+  [x4508] Actual: x000d; Expected: x0007
+  [x4509] Actual: xfff7; Expected: x0001
+  [x450a] Actual: xfff5; Expected: x0001
+  [x450b] Actual: x000c; Expected: x0000
+  [x450c] Actual: xfffd; Expected: xfffd
+  [x450d] Actual: x000d; Expected: xfffb
+  [x450e] Actual: xfff8; Expected: xfff8
+  [x450f] Actual: x000a; Expected: xfff8
+  [x4510] Actual: x001a; Expected: xfff7
+  [x4511] Actual: x0000; Expected: xfff7
+  [x4512] Actual: xfff8; Expected: xfff7
+  [x4513] Actual: xfffb; Expected: xfff5
+  [x4514] Actual: x0001; Expected: xfff3
+Test points earned: 0/8 (0%)
+==========
+Test: Mixed3
+  [x6200] Actual: xfff9; Expected: x00e6
+  [x6201] Actual: x0008; Expected: x00b4
+  [x6202] Actual: x0034; Expected: x0081
+  [x6203] Actual: xff84; Expected: x005a
+  [x6204] Actual: xffa4; Expected: x0034
+  [x6205] Actual: xffe2; Expected: x0023
+  [x6206] Actual: x0023; Expected: x0023
+  [x6207] Actual: x0009; Expected: x0009
+  [x6208] Actual: xff35; Expected: x0008
+  [x6209] Actual: xfff8; Expected: x0008
+  [x620a] Actual: x0023; Expected: x0007
+  [x620b] Actual: xffff; Expected: x0005
+  [x620c] Actual: xff86; Expected: x0005
+  [x620d] Actual: xfff9; Expected: x0001
+  [x620e] Actual: x0081; Expected: xffff
+  [x620f] Actual: x0007; Expected: xfffb
+  [x6210] Actual: xfff9; Expected: xfffa
+  [x6211] Actual: xff23; Expected: xfff9
+  [x6212] Actual: x00e6; Expected: xfff9
+  [x6213] Actual: xfffa; Expected: xfff9
+  [x6214] Actual: x00b4; Expected: xfff8
+  [x6215] Actual: xff68; Expected: xffe2
+  [x6216] Actual: x0005; Expected: xffa4
+  [x6217] Actual: x0008; Expected: xffa1
+  [x6218] Actual: xff9d; Expected: xff9d
+  [x6219] Actual: xff2b; Expected: xff98
+  [x621a] Actual: x0001; Expected: xff86
+  [x621b] Actual: xff1f; Expected: xff84
+  [x621c] Actual: x005a; Expected: xff68
+  [x621d] Actual: xff98; Expected: xff35
+  [x621e] Actual: xfffb; Expected: xff2b
+  [x621f] Actual: x0005; Expected: xff23
+  [x6220] Actual: xffa1; Expected: xff1f
+Test points earned: 0/8 (0%)
+==========
+==========
+Total points earned: 44/100 (44%)
