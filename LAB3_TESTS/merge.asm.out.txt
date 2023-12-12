@@ -1,0 +1,139 @@
+attempting to assemble merge_submissions/4608993/merge.asm into merge_submissions/4608993/merge.obj
+assembly successful
+==========
+Test: Example
+  [x4000] Linked list A setup:
+  [x4050] next_ptr = x4150; name_ptr = x4025; name = Ben
+  [x4150] next_ptr = x0000; name_ptr = x4077; name = Fiona
+  [x4001] Linked list B setup:
+  [x4100] next_ptr = x454d; name_ptr = x5650; name = Fred
+  [x454d] next_ptr = x0000; name_ptr = x5525; name = Sam
+  Expected: Ben -> Fiona -> Fred -> Sam
+  Actual: Ben -> Fiona -> Fred -> Sam
+  ExampleTest => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: ExampleTestRandom (Randomized Machine, Seed: 2626573293)
+  [x4000] Linked list A setup:
+  [x4050] next_ptr = x4150; name_ptr = x4025; name = Ben
+  [x4150] next_ptr = x0000; name_ptr = x4077; name = Fiona
+  [x4001] Linked list B setup:
+  [x4100] next_ptr = x454d; name_ptr = x5650; name = Fred
+  [x454d] next_ptr = x0000; name_ptr = x5525; name = Sam
+  Expected: Ben -> Fiona -> Fred -> Sam
+  Actual: Ben -> Fiona -> Fred -> Sam
+  ExampleTest => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: ZeroZero
+  [x4000] Linked list A setup:
+  [x4001] Linked list B setup:
+  Expected: 
+  Actual: 
+  ZeroZeroTest => Pass (+7 pts)
+Test points earned: 7/7 (100%)
+==========
+Test: ZeroOne
+  [x4000] Linked list A setup:
+  [x4001] Linked list B setup:
+  [x4100] next_ptr = x0000; name_ptr = x500f; name = Coco
+  Expected: Coco
+  Actual: Coco
+  ZeroOneTest => Pass (+7 pts)
+Test points earned: 7/7 (100%)
+==========
+Test: OneOne
+  [x4000] Linked list A setup:
+  [x4200] next_ptr = x0000; name_ptr = x5000; name = Meadow
+  [x4001] Linked list B setup:
+  [x4100] next_ptr = x0000; name_ptr = x500f; name = Coco
+  Expected: Coco -> Meadow
+  Actual: Coco -> Meadow
+  OneOneTest => Pass (+7 pts)
+Test points earned: 7/7 (100%)
+==========
+Test: TwoZero
+  [x4000] Linked list A setup:
+  [x4100] next_ptr = x4200; name_ptr = x500f; name = Coco
+  [x4200] next_ptr = x0000; name_ptr = x5000; name = Meadow
+  [x4001] Linked list B setup:
+  Expected: Coco -> Meadow
+  Actual: Coco -> Meadow
+  TwoZeroTest => Pass (+7 pts)
+Test points earned: 7/7 (100%)
+==========
+Test: OneTwo
+  OneTwoTest => Exceeded instruction limit (+0 pts)
+Test points earned: 0/8 (0%)
+==========
+Test: TwoTwo
+  [x4000] Linked list A setup:
+  [x4050] next_ptr = x4150; name_ptr = x4025; name = Ben
+  [x4150] next_ptr = x0000; name_ptr = x4077; name = Fred
+  [x4001] Linked list B setup:
+  [x4100] next_ptr = x454d; name_ptr = x5650; name = Fiona
+  [x454d] next_ptr = x0000; name_ptr = x5525; name = Sam
+  Expected: Ben -> Fiona -> Fred -> Sam
+  Actual: Ben -> Fiona -> Fred -> Sam
+  TwoTwoTest => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: TwoThree
+  [x4000] Linked list A setup:
+  [x4060] next_ptr = x4070; name_ptr = x4025; name = Arthur
+  [x4070] next_ptr = x0000; name_ptr = x510a; name = Ford
+  [x4001] Linked list B setup:
+  [x4080] next_ptr = x4090; name_ptr = x501b; name = Marvin
+  [x4090] next_ptr = x40a0; name_ptr = x4040; name = Trillian
+  [x40a0] next_ptr = x0000; name_ptr = x56e1; name = Zaphod
+  Expected: Arthur -> Ford -> Marvin -> Trillian -> Zaphod
+  Actual: Arthur -> Ford -> Marvin -> Trillian -> Zaphod
+  TwoThreeTest => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: ThreeTwo
+  ThreeTwoTest => Exceeded instruction limit (+0 pts)
+Test points earned: 0/8 (0%)
+==========
+Test: ThreeThree
+  [x4000] Linked list A setup:
+  [x4020] next_ptr = x4040; name_ptr = x4211; name = Donald
+  [x4040] next_ptr = x4060; name_ptr = x4325; name = Edsger
+  [x4060] next_ptr = x0000; name_ptr = x4077; name = Grace
+  [x4001] Linked list B setup:
+  [x4030] next_ptr = x4050; name_ptr = x5650; name = Alan
+  [x4050] next_ptr = x4070; name_ptr = x40a2; name = John
+  [x4070] next_ptr = x0000; name_ptr = x5525; name = Linus
+  Expected: Alan -> Donald -> Edsger -> Grace -> John -> Linus
+  Actual: Alan -> Donald -> Edsger -> Grace -> John -> Linus
+  ThreeThreeTest => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: OneThree
+  [x4000] Linked list A setup:
+  [x4060] next_ptr = x0000; name_ptr = x4077; name = Dijkstra
+  [x4001] Linked list B setup:
+  [x4100] next_ptr = x4350; name_ptr = x5650; name = Amdahl
+  [x4350] next_ptr = x421a; name_ptr = x51a2; name = Cray
+  [x421a] next_ptr = x0000; name_ptr = x4a28; name = Moore
+  Expected: Amdahl -> Cray -> Dijkstra -> Moore
+  Actual: Amdahl -> Cray -> Dijkstra -> Moore
+  OneThreeTest => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+Test: FourTwo
+  [x4000] Linked list A setup:
+  [x4400] next_ptr = x4300; name_ptr = x44f1; name = Lucy
+  [x4300] next_ptr = x4200; name_ptr = x43b5; name = Marcie
+  [x4200] next_ptr = x4100; name_ptr = x42a2; name = Sally
+  [x4100] next_ptr = x0000; name_ptr = x4175; name = Schroeder
+  [x4001] Linked list B setup:
+  [x4600] next_ptr = x4500; name_ptr = x6450; name = Charlie
+  [x4500] next_ptr = x0000; name_ptr = x5ab2; name = Snoopy
+  Expected: Charlie -> Lucy -> Marcie -> Sally -> Schroeder -> Snoopy
+  Actual: Charlie -> Lucy -> Marcie -> Sally -> Schroeder -> Snoopy
+  FourTwoTest => Pass (+8 pts)
+Test points earned: 8/8 (100%)
+==========
+==========
+Total points earned: 84/100 (84%)
