@@ -1,5 +1,7 @@
 # ECE306-LC3
 LC3 (Little Computer 3) assembly programs that I created for "Introduction to Computing" with Dr. Yale N. Patt 
+# Requirements:
+You must use the LC3 simulator found here to run these programs: https://github.com/chiragsakhuja/lc3tools
 
 ## LAB 1
 ##### comparison.bin
