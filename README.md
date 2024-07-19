@@ -1,5 +1,6 @@
 # ECE306-LC3
 LC3 (Little Computer 3) assembly programs that I created for "Introduction to Computing" with Dr. Yale N. Patt 
+Not all of these programs are perfect solutions! LAB-4: NIM is the main project in this epository. It showcases how a fully fledged computer game can be made with only fifteen assembly instructions.
 # Requirements:
 You must use the LC3 simulator found here to run these programs: https://github.com/chiragsakhuja/lc3tools
 
